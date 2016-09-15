@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DemoApp.App">
   <Application.Resources>
-
-    <!-- Application resource dictionary -->
+    <vm:ViewModelLocator xmlns:vm="clr-namespace:DemoApp.ViewModel" x:Key="Locator" />
+    
 
   </Application.Resources>
 </Application>

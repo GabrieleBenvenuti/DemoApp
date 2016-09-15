@@ -13,7 +13,7 @@ namespace DemoApp
         {
             InitializeComponent();
 
-            MainPage = new DemoApp.MainPage();
+            MainPage = new DemoApp.Views.MainPage();
         }
 
         protected override void OnStart()
